@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Solitaire!
+        </title>
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1> Solitaire AI </h1>
+
+        <button onclick="toggleAI()"> AI </button>
+        <p id="data">
+            Lose Count: <span id="losecount">0</span> | 
+            Win Count: <span id="wincount">0</span> | 
+            Total: <span id="totalcount">0</span> | 
+            WGR: <span id="wgr">N/A</span>
+        </p>
+
+        <div id="board">
+            <div id="toprow">
+                <div id="drawstack"> </div>
+                <div id="fullstacks"> </div>
+            </div>
+            
+            <div id="stacks"> </div>
+        </div>
+
+
+        <script src="game.js"></script>
+        <script src="ai.js"></script>
+    </body>
+</html>

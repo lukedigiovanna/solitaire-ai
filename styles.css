@@ -1,0 +1,52 @@
+.card {
+    width: 100px;
+    height: 150px;
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    padding-inline: 10px;
+    margin-inline: 10px;
+    padding-bottom: 12px;
+    background-size: cover;
+}
+
+.slot {
+    border: 1px solid rgb(212, 212, 212);
+    background-color: lightgray;
+}
+
+.spacer {
+    width: 100px;
+    padding-inline: 10px;
+    margin-inline: 10px;
+}
+
+.stackcard {
+    margin-bottom: -110px;
+}
+
+.hidden {
+    background-image: url('sprites/cardBack_red2.png');
+}
+
+.value {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+#stacks, #toprow, #drawstack, #fullstacks {
+    display: flex;
+}
+
+#toprow {
+    margin-bottom: 30px;
+}
+
+#drawstack {
+    margin-right: 50px;
+}
